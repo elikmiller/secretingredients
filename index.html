@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Lobster+Two:700i" rel="stylesheet">
+		<link rel="stylesheet" href="base.css">
+
+		<title>Find-A-Recipe</title>
+  </head>
+  <body>
+			<nav class="navbar navbar-full navbar-light bg-faded">
+				<div class="container">
+				<a class="navbar-brand" href="#"><i class="fa fa-lemon-o"></i> Find-A-Recipie</a>
+				<ul class="nav navbar-nav float-xs-right">
+					<li class="nav-item">
+						<form class="form-inline float-xs-left">
+							<input class="form-control" type="text" placeholder="Search Recipies">
+							<button class="btn btn-primary" type="submit"><i class="fa fa-search"></i></button>
+						</form>
+					</li>
+					<li class="nav-item">
+						<a class="btn btn-secondary" href="#"><i class="fa fa-user"></i>&nbsp;&nbsp;Sign in</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+		<div class="jumbotron jumbotron-fluid">
+		<div class="container">
+			  <p class="lead">Share your recipies. Try one of ours. Find the perfect dish.</p>
+			  <p><a href="#"><i class="fa fa-chevron-right"></i> Learn more about Find-A-Recipe.</a></p>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-3">
+					<p class="text-xs-center">Narrow Your Search</p>
+					<hr>
+					<form>
+					  <fieldset class="form-group">
+							<div class="btn-group-vertical" data-toggle="buttons">
+							  <label class="btn btn-secondary">
+							    <input type="radio" name="type" autocomplete="off"> Breakfast
+							  </label>
+							  <label class="btn btn-secondary">
+							    <input type="radio" name="type" autocomplete="off"> Lunch
+							  </label>
+							  <label class="btn btn-secondary">
+							    <input type="radio" name="type" autocomplete="off"> Dinner
+							  </label>
+							  <label class="btn btn-secondary">
+							    <input type="radio" name="type" autocomplete="off"> Dessert
+							  </label>
+							</div>
+					  </fieldset>
+
+						<fieldset class="form-group">
+							<div class="btn-group-vertical" data-toggle="buttons">
+							  <label class="btn btn-secondary">
+							    <input type="radio" name="duration" autocomplete="off"> Short
+							  </label>
+							  <label class="btn btn-secondary">
+							    <input type="radio" name="duration" autocomplete="off"> Medium
+							  </label>
+							  <label class="btn btn-secondary">
+							    <input type="radio" name="duration" autocomplete="off"> Long
+							  </label>
+							</div>
+					  </fieldset>
+
+						<fieldset class="form-group">
+							<div class="btn-group-vertical" data-toggle="buttons">
+							  <label class="btn btn-secondary">
+							    <input type="checkbox" name="dietary" autocomplete="off"> Vegetarian
+							  </label>
+							  <label class="btn btn-secondary">
+							    <input type="checkbox" name="dietary" autocomplete="off"> Vegan
+							  </label>
+							  <label class="btn btn-secondary">
+							    <input type="checkbox" name="dietary" autocomplete="off"> Gluten Free
+							  </label>
+							</div>
+					  </fieldset>
+
+						<fieldset class="form-group">
+							<div class="btn-group-vertical">
+							  <button type="button" class="btn btn-secondary">Reset</button>
+							</div>
+					  </fieldset>
+					</form>
+				</div>
+				<div class="col-xs-9">
+					<nav class="navbar navbar-light bg-faded">
+						<span class="navbar-text">
+					    43 Available Recipies
+					  </span>
+						<ul class="nav navbar-nav float-xs-right">
+							<li class="nav-item dropdown">
+					      <a class="nav-link dropdown-toggle" data-toggle="dropdown">Order By</a>
+					      <div class="dropdown-menu dropdown-menu-right">
+					        <a class="dropdown-item" href="#">Alphabetical</a>
+					        <a class="dropdown-item" href="#">Rating</a>
+					        <a class="dropdown-item" href="#">Duration</a>
+					        <a class="dropdown-item" href="#">Date</a>
+					      </div>
+					    </li>
+						</ul>
+					</nav>
+					<div class="row">
+						<div class="col-xs-4">
+							<div class="card text-xs-center">
+							  <img class="card-img-top img-fluid" src="https://images-gmi-pmc.edge-generalmills.com/0b28f90b-8398-4b33-870d-f5d6ea5b7e5a.jpg" alt="Card image cap">
+							  <div class="card-block">
+							    <h4 class="card-title">Famous Pumpkin Pie</h4>
+							    <p class="card-text">Easy to make, crowd pleasing, delicious pumpkin pie.</p>
+									<p><i class="fa fa-clock-o" aria-hidden="true"></i> 0:20 | <i class="fa fa-star"></i> 10</p>
+							  </div>
+							</div>
+						</div>
+						<div class="col-xs-4">
+							<div class="card text-xs-center">
+							  <img class="card-img-top img-fluid" src="https://images-gmi-pmc.edge-generalmills.com/0b28f90b-8398-4b33-870d-f5d6ea5b7e5a.jpg" alt="Card image cap">
+							  <div class="card-block">
+							    <h4 class="card-title">Famous Pumpkin Pie</h4>
+							    <p class="card-text">Easy to make, crowd pleasing, delicious pumpkin pie.</p>
+									<p><i class="fa fa-clock-o" aria-hidden="true"></i> 0:20 | <i class="fa fa-star"></i> 10</p>
+							  </div>
+							</div>
+						</div>
+						<div class="col-xs-4">
+							<div class="card text-xs-center">
+							  <img class="card-img-top img-fluid" src="https://images-gmi-pmc.edge-generalmills.com/0b28f90b-8398-4b33-870d-f5d6ea5b7e5a.jpg" alt="Card image cap">
+							  <div class="card-block">
+							    <h4 class="card-title">Famous Pumpkin Pie</h4>
+							    <p class="card-text">Easy to make, crowd pleasing, delicious pumpkin pie.</p>
+									<p><i class="fa fa-clock-o" aria-hidden="true"></i> 0:20 | <i class="fa fa-star"></i> 10</p>
+							  </div>
+							</div>
+						</div>
+						<div class="col-xs-4">
+							<div class="card text-xs-center">
+							  <img class="card-img-top img-fluid" src="https://images-gmi-pmc.edge-generalmills.com/0b28f90b-8398-4b33-870d-f5d6ea5b7e5a.jpg" alt="Card image cap">
+							  <div class="card-block">
+							    <h4 class="card-title">Famous Pumpkin Pie</h4>
+							    <p class="card-text">Easy to make, crowd pleasing, delicious pumpkin pie.</p>
+									<p><i class="fa fa-clock-o" aria-hidden="true"></i> 0:20 | <i class="fa fa-star"></i> 10</p>
+							  </div>
+							</div>
+						</div>
+						<div class="col-xs-4">
+							<div class="card text-xs-center">
+							  <img class="card-img-top img-fluid" src="https://images-gmi-pmc.edge-generalmills.com/0b28f90b-8398-4b33-870d-f5d6ea5b7e5a.jpg" alt="Card image cap">
+							  <div class="card-block">
+							    <h4 class="card-title">Famous Pumpkin Pie</h4>
+							    <p class="card-text">Easy to make, crowd pleasing, delicious pumpkin pie.</p>
+									<p><i class="fa fa-clock-o" aria-hidden="true"></i> 0:20 | <i class="fa fa-star"></i> 10</p>
+							  </div>
+							</div>
+						</div>
+						<div class="col-xs-4">
+							<div class="card text-xs-center">
+							  <img class="card-img-top img-fluid" src="https://images-gmi-pmc.edge-generalmills.com/0b28f90b-8398-4b33-870d-f5d6ea5b7e5a.jpg" alt="Card image cap">
+							  <div class="card-block">
+							    <h4 class="card-title">Famous Pumpkin Pie</h4>
+							    <p class="card-text">Easy to make, crowd pleasing, delicious pumpkin pie.</p>
+									<p><i class="fa fa-clock-o" aria-hidden="true"></i> 0:20 | <i class="fa fa-star"></i> 10</p>
+							  </div>
+							</div>
+						</div>
+						<div class="col-xs-4">
+							<div class="card text-xs-center">
+							  <img class="card-img-top img-fluid" src="https://images-gmi-pmc.edge-generalmills.com/0b28f90b-8398-4b33-870d-f5d6ea5b7e5a.jpg" alt="Card image cap">
+							  <div class="card-block">
+							    <h4 class="card-title">Famous Pumpkin Pie</h4>
+							    <p class="card-text">Easy to make, crowd pleasing, delicious pumpkin pie.</p>
+									<p><i class="fa fa-clock-o" aria-hidden="true"></i> 0:20 | <i class="fa fa-star"></i> 10</p>
+							  </div>
+							</div>
+						</div>
+						<div class="col-xs-4">
+							<div class="card text-xs-center">
+							  <img class="card-img-top img-fluid" src="https://images-gmi-pmc.edge-generalmills.com/0b28f90b-8398-4b33-870d-f5d6ea5b7e5a.jpg" alt="Card image cap">
+							  <div class="card-block">
+							    <h4 class="card-title">Famous Pumpkin Pie</h4>
+							    <p class="card-text">Easy to make, crowd pleasing, delicious pumpkin pie.</p>
+									<p><i class="fa fa-clock-o" aria-hidden="true"></i> 0:20 | <i class="fa fa-star"></i> 10</p>
+							  </div>
+							</div>
+						</div>
+						<div class="col-xs-4">
+							<div class="card text-xs-center">
+							  <img class="card-img-top img-fluid" src="https://images-gmi-pmc.edge-generalmills.com/0b28f90b-8398-4b33-870d-f5d6ea5b7e5a.jpg" alt="Card image cap">
+							  <div class="card-block">
+							    <h4 class="card-title">Famous Pumpkin Pie</h4>
+							    <p class="card-text">Easy to make, crowd pleasing, delicious pumpkin pie.</p>
+									<p><i class="fa fa-clock-o" aria-hidden="true"></i> 0:20 | <i class="fa fa-star"></i> 10</p>
+							  </div>
+							</div>
+						</div>
+					</div>
+					<div class="row text-xs-center">
+						<div class="col-xs-12">
+							<button class="btn btn-secondary">Load More</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid">
+			<hr>
+			<p class="text-xs-right">designed and developed by <a href="https://elikmiller.com">elikmiller.com</a></p>
+			<p class="text-xs-right">&copy; 2016 secretingredients.com</a></p>
+		</div>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+  </body>
+</html>

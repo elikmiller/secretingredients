@@ -1,0 +1,13 @@
+.navbar-brand {
+	font-family: 'Lobster Two', cursive;
+}
+
+.btn-group-vertical {
+	width: 100%;
+}
+
+.jumbotron {
+	background-image: url("woodgrain.jpg");
+	background-position: center;
+	background-size: cover;
+}
